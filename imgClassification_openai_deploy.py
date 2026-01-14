@@ -68,9 +68,9 @@ JSON format으로 키는 'building', 'sea', 'mountain'으로 하고 각각 건�
 markdown format은 포함하지 말아줘.
 """
 
-img = Image.open('imgs_classification/01.jpg')  # 이미지 열기
-response = classify_image(prompt, img)     # GPT로부터 분류 결과 받기
-print(response)  # 결과 출력
+# img = Image.open('imgs_classification/01.jpg')  # 이미지 열기
+# response = classify_image(prompt, img)     # GPT로부터 분류 결과 받기
+# print(response)  # 결과 출력
 
 import streamlit as st
 
