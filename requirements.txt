@@ -1,4 +1,4 @@
 openai
 pillow
 streamlit
-genai
+google-genai
