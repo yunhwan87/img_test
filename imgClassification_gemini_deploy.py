@@ -47,6 +47,8 @@ markdown format은 포함하지 말아줘.
 # print(response)  # 결과 출력
 
 # -1) model 선택하기 : st.sidebar / st.selectbox
+
+st.title('이미지 분류기- Gemini')
 # -1) model 선택하기 : st.sidebar / st.selectbox
 with st.sidebar:
     model = st.selectbox('모델선택',
