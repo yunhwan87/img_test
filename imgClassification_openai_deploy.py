@@ -14,12 +14,12 @@ import base64
 from io import BytesIO
 
 from PIL import Image
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
 from openai import OpenAI
 
 import streamlit as st
 
-load_dotenv()
+# load_dotenv()
 api_key = os.getenv("OPENAI_API_KEY")
 
 # client는 보통 전역 1회 생성 권장
